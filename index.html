@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Алёна | English teacher</title>
+<meta name="description" content="Английский для тех, кто знает больше, чем может сказать. Индивидуальные и групповые занятия онлайн с A0.">
+<style>
+:root{
+  --blue:#2772A7;
+  --pale:#B4E0FF;
+  --cream:#FFDCAF;
+  --ink:#173044;
+  --muted:#617789;
+  --bg:#F5FAFD;
+  --card:#FFFFFF;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; min-height:100vh; padding:28px 16px 36px;
+  font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  color:var(--ink); background:
+  radial-gradient(circle at 90% 5%, rgba(180,224,255,.55), transparent 32%),
+  linear-gradient(180deg,#F7FCFF 0%,#EFF7FB 100%);
+}
+main{width:min(100%,500px);margin:auto}
+.profile{text-align:center}
+.avatar{
+  width:156px;height:156px;object-fit:cover;display:block;margin:0 auto 18px;
+  border-radius:32px; border:5px solid white;
+  box-shadow:0 16px 36px rgba(39,114,167,.18);
+}
+h1{font-size:30px;line-height:1.1;margin:0;font-weight:800;letter-spacing:-.7px}
+.role{font-size:15px;color:var(--blue);font-weight:700;margin-top:6px}
+.meta{font-size:13px;color:var(--muted);margin-top:8px}
+.bio{font-size:16px;line-height:1.45;max-width:390px;margin:16px auto 24px}
+.links{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.link{
+  min-height:82px;padding:15px;border:1px solid rgba(180,224,255,.8);
+  border-radius:20px;background:rgba(255,255,255,.88);text-decoration:none;color:var(--ink);
+  display:flex;align-items:center;gap:12px;
+  box-shadow:0 8px 22px rgba(23,48,68,.06);
+  transition:transform .18s,box-shadow .18s,border-color .18s;
+}
+.link:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(23,48,68,.1);border-color:var(--pale)}
+.icon{
+  width:40px;height:40px;border-radius:13px;background:#EAF7FF;color:var(--blue);
+  display:grid;place-items:center;flex:0 0 40px;font-weight:800;font-size:16px;
+}
+.copy{min-width:0}.name{font-weight:800;font-size:14px}.desc{font-size:12px;color:var(--muted);margin-top:3px}
+.arrow{margin-left:auto;color:#88A2B2;font-size:20px}
+.cta-wrap{margin-top:28px;padding-top:4px;text-align:center}
+.cta-title{font-size:14px;font-weight:700;margin-bottom:11px}
+.cta{
+  display:flex;align-items:center;justify-content:center;gap:9px;
+  padding:16px 20px;border-radius:19px;background:var(--cream);color:#533B22;
+  text-decoration:none;font-weight:850;font-size:16px;
+  box-shadow:0 12px 26px rgba(126,92,48,.14);
+  transition:transform .18s,box-shadow .18s;
+}
+.cta:hover{transform:translateY(-2px);box-shadow:0 15px 30px rgba(126,92,48,.2)}
+.footer{text-align:center;color:#8A9BA7;font-size:11px;margin-top:24px}
+@media(max-width:430px){
+  body{padding-top:22px}.avatar{width:142px;height:142px;border-radius:28px}
+  h1{font-size:27px}.bio{font-size:15px;margin-top:14px}
+  .links{gap:8px}.link{min-height:76px;padding:12px}.icon{width:36px;height:36px;flex-basis:36px;border-radius:11px}
+  .name{font-size:13px}.desc{font-size:11px}
+}
+@media(max-width:350px){.links{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+  <section class="profile">
+    <img class="avatar" src="avatar.jpg" alt="Алёна — преподаватель английского">
+    <h1>Алёна</h1>
+    <div class="role">English teacher</div>
+    <div class="meta">С A0 · индивидуальные и групповые занятия онлайн</div>
+    <p class="bio">Английский для тех, кто знает больше, чем может сказать.</p>
+  </section>
+
+  <section class="links" aria-label="Социальные сети">
+    <a class="link" href="https://vk.ru/alyonas_english" target="_blank" rel="noopener">
+      <span class="icon">VK</span><span class="copy"><span class="name">VK</span><span class="desc">блог</span></span><span class="arrow">›</span>
+    </a>
+    <a class="link" href="https://t.me/alyonas_english" target="_blank" rel="noopener">
+      <span class="icon">↗</span><span class="copy"><span class="name">Telegram</span><span class="desc">канал</span></span><span class="arrow">›</span>
+    </a>
+    <a class="link" href="https://www.tiktok.com/@alyonas_english" target="_blank" rel="noopener">
+      <span class="icon">♪</span><span class="copy"><span class="name">TikTok</span><span class="desc">видео</span></span><span class="arrow">›</span>
+    </a>
+    <a class="link" href="https://youtube.com/@alyonas_english" target="_blank" rel="noopener">
+      <span class="icon">▶</span><span class="copy"><span class="name">YouTube</span><span class="desc">разборы</span></span><span class="arrow">›</span>
+    </a>
+    <a class="link" href="https://pin.it/7g04X5HNU" target="_blank" rel="noopener">
+      <span class="icon">P</span><span class="copy"><span class="name">Pinterest</span><span class="desc">материалы</span></span><span class="arrow">›</span>
+    </a>
+  </section>
+
+  <section class="cta-wrap">
+    <div class="cta-title">Хочешь заниматься со мной?</div>
+    <a class="cta" href="https://m.vk.ru/service-booking-224173751" target="_blank" rel="noopener">
+      Записаться на урок <span>→</span>
+    </a>
+  </section>
+
+  <div class="footer">English, but make it human.</div>
+</main>
+</body>
+</html>
